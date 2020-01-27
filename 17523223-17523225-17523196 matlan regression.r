@@ -18,3 +18,5 @@ y <- predict(poly_model, newdata = data.frame(Food = x))
 
 plot(Area ~ Food, data = matlan)
 lines(x, y, col = "green")
+
+//boom
